@@ -298,7 +298,6 @@ describe('40 - Implemente a solução de modo que caso a receita tenha sido inic
             52771: [],
           },
         };
-        console.log('sdasd');
         localStorage.setItem('inProgressRecipes', JSON.stringify(inProgressRecipes));
         win.fetch = fetchMock;
       },
